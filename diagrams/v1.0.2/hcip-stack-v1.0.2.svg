@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="420">
+  <style>
+    .layer { fill:#ffffff; stroke:#000000; stroke-width:1.5; }
+    .text { font-family:Arial, sans-serif; font-size:12px; }
+    .title { font-weight:bold; }
+  </style>
+
+  <!-- A-Layer -->
+  <rect class="layer" x="60" y="40" width="400" height="70" />
+  <text class="text title" x="80" y="65">A-Layer: Interpretive Glossary</text>
+  <text class="text" x="80" y="85">Meaning, narrative, reweighting</text>
+
+  <!-- B-Layer -->
+  <rect class="layer" x="60" y="130" width="400" height="70" />
+  <text class="text title" x="80" y="155">B-Layer: Symbolic Alphabet</text>
+  <text class="text" x="80" y="175">Operators, transitions, relations</text>
+
+  <!-- C-Layer -->
+  <rect class="layer" x="60" y="220" width="400" height="70" />
+  <text class="text title" x="80" y="245">C-Layer: Complex Temporal Cognition (CTC)</text>
+  <text class="text" x="80" y="265">Temporal primitives, drift, recursion</text>
+
+  <!-- D-Layer -->
+  <rect class="layer" x="60" y="310" width="400" height="70" />
+  <text class="text title" x="80" y="335">D-Layer: Validation &amp; Stability</text>
+  <text class="text" x="80" y="355">Integrity, drift bounds, coherence checks</text>
+
+  <!-- Arrows -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L6,3 z" fill="#000" />
+    </marker>
+  </defs>
+
+  <line x1="260" y1="110" x2="260" y2="130" stroke="#000" stroke-width="1.5" marker-end="url(#arrow)" />
+  <line x1="260" y1="200" x2="260" y2="220" stroke="#000" stroke-width="1.5" marker-end="url(#arrow)" />
+  <line x1="260" y1="290" x2="260" y2="310" stroke="#000" stroke-width="1.5" marker-end="url(#arrow)" />
+</svg>
