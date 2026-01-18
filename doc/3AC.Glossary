@@ -1,0 +1,87 @@
+# Three Asymmetric Consequence (3AC) — Glossary
+
+## Core Structures
+
+**S₀**  
+Initial high‑density state containing three asymmetry layers.
+
+**S₀¹, S₀², S₀³**  
+Substates representing distinct asymmetry layers.
+
+**TRᵢ (Temporal Remnant)**  
+Residual “hot” fragment of \(S_0^i\) that resists reinterpretation and can be reactivated.
+
+**Vᵢ(t)**  
+Semantic potential function for layer i.
+
+**∇Vᵢ(t)**  
+Gradient of semantic potential.
+
+**wᵢ**  
+Weight for layer i (emotional intensity, interpretive inertia).
+
+**∇V_total(t)**  
+Sum of semantic potential gradients.
+
+**∇Ṽ_total(t)**  
+Weighted sum of semantic potential gradients.
+
+
+## Activation & Environment
+
+**κ (kappa)**  
+Catalyst influence — stabilizing factors.
+
+**L (linearity)**  
+Environmental linearity — predictability and stability.
+
+**cues(t)**  
+Time‑varying triggers that activate remnants.
+
+**Aᵢ(t)**  
+Activation level of remnant \(TR_i\).
+
+**ΔVᵢ(t)**  
+Spike in semantic potential from layer i.
+
+**ΞT (Xi T)**  
+Emergent tension — accumulated pressure.
+
+**Tₛ (Temporal Shear)**  
+Tension between fading and forming structures.
+
+
+## Identity Dynamics
+
+**Σₑ (Sigma e)**  
+Synthesis event — collapse of tension into new structure.
+
+**D(t) (Drift)**  
+Slow, cumulative change in meaning.
+
+**M(t) (Mirror Entanglement)**  
+Mirror channel that copies tension and applies it to drift.
+
+**L(t) (Recursive Light)**  
+Reflective capacity; may implode or become inaccessible.
+
+**S₀.₅**  
+Intermediate partial‑pivot state.
+
+**S₁**  
+New identity topology after synthesis.
+
+**S₁(stable)**  
+Identity after surviving stress tests.
+
+
+## Fixed‑Point Operators
+
+**Fᵢ(A\*, S₀ᵢ)**  
+Forward‑projected reinterpretation of layer i.
+
+**Rᵢ(A\*, S₀ᵢ)**  
+Retroactive reinterpretation of layer i.
+
+**3AC (Three Asymmetric Consequence)**  
+A configuration where three asymmetry layers interact through remnants, potentials, activations, and synthesis, producing a vectorized fixed‑point condition.
