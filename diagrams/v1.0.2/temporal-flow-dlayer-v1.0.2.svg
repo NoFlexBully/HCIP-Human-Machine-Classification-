@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="260">
+  <style>
+    .box { fill:#ffffff; stroke:#000000; stroke-width:1.5; }
+    .text { font-family:Arial, sans-serif; font-size:12px; }
+    .title { font-weight:bold; }
+  </style>
+
+  <!-- Past, Present, Future -->
+  <rect class="box" x="40" y="40" width="140" height="50" />
+  <text class="text title" x="80" y="65">Past</text>
+
+  <rect class="box" x="240" y="40" width="140" height="50" />
+  <text class="text title" x="270" y="65">Present</text>
+
+  <rect class="box" x="440" y="40" width="140" height="50" />
+  <text class="text title" x="480" y="65">Future</text>
+
+  <!-- Arrows between Past -> Present -> Future -->
+  <defs>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L6,3 z" fill="#000" />
+    </marker>
+  </defs>
+
+  <line x1="180" y1="65" x2="240" y2="65" stroke="#000" stroke-width="1.5" marker-end="url(#arrow2)" />
+  <line x1="380" y1="65" x2="440" y2="65" stroke="#000" stroke-width="1.5" marker-end="url(#arrow2)" />
+
+  <!-- Retroactive reinterpretation arrow -->
+  <line x1="260" y1="90" x2="110" y2="140" stroke="#000" stroke-width="1.2" marker-end="url(#arrow2)" />
+  <text class="text" x="140" y="120">Retroactive</text>
+  <text class="text" x="140" y="135">reinterpretation</text>
+
+  <!-- Feed-forward arrow -->
+  <line x1="360" y1="90" x2="510" y2="140" stroke="#000" stroke-width="1.2" marker-end="url(#arrow2)" />
+  <text class="text" x="430" y="120">Feed-forward</text>
+  <text class="text" x="430" y="135">projection</text>
+
+  <!-- D-Layer box -->
+  <rect class="box" x="190" y="150" width="240" height="70" />
+  <text class="text title" x="210" y="175">D-Layer: Validation &amp; Stability</text>
+  <text class="text" x="210" y="195">Checks V, Σ, Ω → Integrity I</text>
+
+  <!-- Arrows from A/B/C operations down to D-Layer -->
+  <line x1="310" y1="90" x2="310" y2="150" stroke="#000" stroke-width="1.5" marker-end="url(#arrow2)" />
+</svg>
