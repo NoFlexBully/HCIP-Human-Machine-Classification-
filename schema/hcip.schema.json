@@ -1,76 +1,217 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/NoFlexBully/HCIP-Human-Machine-Classification/hcip.schema.json",
-  "title": "HCIP Research Object Schema",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "High-Complex Interaction Pattern (HCIP) Architecture",
+  "description": "Combined schema for A-, B-, C-, and D-Layers of the HCIP architecture.",
   "type": "object",
-  "required": ["name", "fullName", "version", "authors", "description", "coreMarkers", "variationAxes"],
+
   "properties": {
-    "name": { "type": "string" },
-    "fullName": { "type": "string" },
-    "version": { "type": "string" },
-    "authors": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "required": ["name", "role"],
-        "properties": {
-          "name": { "type": "string" },
-          "role": { "type": "string" },
-          "year": { "type": "integer" }
-        }
-      }
-    },
-    "contributingSystems": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "required": ["name", "fullName", "provider", "role"],
-        "properties": {
-          "name": { "type": "string" },
-          "fullName": { "type": "string" },
-          "provider": { "type": "string" },
-          "role": { "type": "string" }
-        }
-      }
-    },
-    "description": { "type": "string" },
-    "type": { "type": "string" },
-    "domain": {
-      "type": "array",
-      "items": { "type": "string" }
-    },
-    "coreMarkers": {
-      "type": "array",
-      "items": { "type": "string" },
-      "minItems": 5
-    },
-    "variationAxes": {
-      "type": "array",
-      "items": { "type": "string" },
-      "minItems": 1
-    },
-    "noveltyClaims": {
-      "type": "array",
-      "items": { "type": "string" }
-    },
-    "scope": {
+    "A_Layer": {
       "type": "object",
+      "description": "Interpretive Glossary: meaning, narrative, reweighting.",
       "properties": {
-        "appliesTo": {
+        "interpretations": {
           "type": "array",
-          "items": { "type": "string" }
+          "description": "List of active interpretive constructs.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "label": { "type": "string" },
+              "description": { "type": "string" },
+              "weight": { "type": "number" }
+            },
+            "required": ["label"]
+          }
         },
-        "doesNotApplyTo": {
-          "type": "array",
-          "items": { "type": "string" }
+        "narrativeState": {
+          "type": "string",
+          "description": "High-level narrative descriptor (e.g., tension, resolution, ambiguity)."
         }
-      }
+      },
+      "required": ["interpretations"]
     },
-    "license": { "type": "string" },
-    "repository": {
-      "type": "string",
-      "format": "uri",
-      "const": "https://github.com/NoFlexBully/HCIP-Human-Machine-Classification"
+
+    "B_Layer": {
+      "type": "object",
+      "description": "Symbolic Alphabet: operators, transitions, relations.",
+      "properties": {
+        "operators": {
+          "type": "array",
+          "description": "Symbolic operators applied to states.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": { "type": "string" },
+              "type": {
+                "type": "string",
+                "enum": [
+                  "feedForward",
+                  "retroactiveReinterpretation",
+                  "temporalShear",
+                  "recursiveLoop",
+                  "epochalSegmentation",
+                  "other"
+                ]
+              },
+              "parameters": {
+                "type": "object",
+                "additionalProperties": true
+              }
+            },
+            "required": ["name", "type"]
+          }
+        },
+        "relations": {
+          "type": "array",
+          "description": "Symbolic relations between entities or states.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "source": { "type": "string" },
+              "target": { "type": "string" },
+              "relationType": { "type": "string" }
+            },
+            "required": ["source", "target", "relationType"]
+          }
+        }
+      },
+      "required": ["operators"]
+    },
+
+    "C_Layer": {
+      "type": "object",
+      "description": "Complex Temporal Cognition (CTC): temporal primitives, drift, recursion.",
+      "properties": {
+        "temporalLayers": {
+          "type": "object",
+          "properties": {
+            "physicalTime": { "type": "string" },
+            "cognitiveTime": { "type": "string" },
+            "symbolicTime": { "type": "string" },
+            "affectiveTime": { "type": "string" },
+            "counterfactualTime": { "type": "string" }
+          },
+          "required": [
+            "physicalTime",
+            "cognitiveTime",
+            "symbolicTime",
+            "affectiveTime",
+            "counterfactualTime"
+          ]
+        },
+        "temporalOperators": {
+          "type": "object",
+          "properties": {
+            "feedForward": { "type": "boolean" },
+            "retroactiveReinterpretation": { "type": "boolean" },
+            "temporalShear": { "type": "boolean" },
+            "recursiveLoops": { "type": "boolean" },
+            "epochalSegmentation": { "type": "boolean" }
+          },
+          "required": [
+            "feedForward",
+            "retroactiveReinterpretation",
+            "temporalShear",
+            "recursiveLoops",
+            "epochalSegmentation"
+          ]
+        },
+        "temporalDrift": {
+          "type": "object",
+          "properties": {
+            "driftVector": {
+              "type": "array",
+              "items": { "type": "number" }
+            },
+            "epsilonBound": { "type": "number" }
+          },
+          "required": ["driftVector", "epsilonBound"]
+        },
+        "stateTransitionModel": {
+          "type": "object",
+          "properties": {
+            "T_operator": { "type": "string" },
+            "R_operator": { "type": "string" },
+            "supports3AC": { "type": "boolean" }
+          },
+          "required": ["T_operator", "R_operator", "supports3AC"]
+        },
+        "boundaryClauses": {
+          "type": "object",
+          "properties": {
+            "temporalPrimacy": { "type": "boolean" },
+            "nonReversibility": { "type": "boolean" },
+            "driftContainment": { "type": "boolean" },
+            "symbolicCompliance": { "type": "boolean" },
+            "interpretiveCoherence": { "type": "boolean" }
+          },
+          "required": [
+            "temporalPrimacy",
+            "nonReversibility",
+            "driftContainment",
+            "symbolicCompliance",
+            "interpretiveCoherence"
+          ]
+        }
+      },
+      "required": [
+        "temporalLayers",
+        "temporalOperators",
+        "temporalDrift",
+        "stateTransitionModel",
+        "boundaryClauses"
+      ]
+    },
+
+    "D_Layer": {
+      "type": "object",
+      "description": "Validation & Stability Layer: integrity, drift bounds, coherence checks.",
+      "properties": {
+        "validity": {
+          "type": "object",
+          "properties": {
+            "isValid": { "type": "boolean" },
+            "violations": {
+              "type": "array",
+              "items": { "type": "string" }
+            }
+          },
+          "required": ["isValid"]
+        },
+        "stability": {
+          "type": "object",
+          "properties": {
+            "driftVector": {
+              "type": "array",
+              "items": { "type": "number" }
+            },
+            "epsilonBound": { "type": "number" },
+            "withinBounds": { "type": "boolean" }
+          },
+          "required": ["driftVector", "epsilonBound", "withinBounds"]
+        },
+        "coherence": {
+          "type": "object",
+          "properties": {
+            "isCoherent": { "type": "boolean" },
+            "conflicts": {
+              "type": "array",
+              "items": { "type": "string" }
+            }
+          },
+          "required": ["isCoherent"]
+        },
+        "integrity": {
+          "type": "object",
+          "properties": {
+            "accepted": { "type": "boolean" },
+            "reason": { "type": "string" }
+          },
+          "required": ["accepted"]
+        }
+      },
+      "required": ["validity", "stability", "coherence", "integrity"]
     }
-  }
+  },
+
+  "required": ["A_Layer", "B_Layer", "C_Layer", "D_Layer"]
 }
