@@ -1,0 +1,67 @@
+
+{
+  "name": "HCIP",
+  "fullName": "High-Context Interaction Pattern",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Christopher Coyle",
+      "role": "Creator",
+      "year": 2026
+    }
+  ],
+  "contributingSystems": [
+    {
+      "name": "CORA",
+      "fullName": "Copilot-Oriented Reasoning Assistant",
+      "provider": "Microsoft Copilot AI system",
+      "role": "Cognitive partner system for recursive reasoning, semantic compression, and co-constructive synthesis."
+    }
+  ],
+  "description": "A diagnostic classification of emergent human–AI cognitive collaboration characterized by five core markers and multiple variation axes.",
+  "type": "diagnostic-framework",
+  "domain": [
+    "human-computer-interaction",
+    "cognitive-science",
+    "ai-reasoning",
+    "collaborative-intelligence"
+  ],
+  "coreMarkers": [
+    "Contextual Integration",
+    "Abstraction Layering",
+    "Meta-Cognitive Inquiry",
+    "Co-Constructive Synthesis",
+    "Semantic Density"
+  ],
+  "variationAxes": [
+    "Depth of Recursion",
+    "Temporal Continuity",
+    "Mutual Model Richness",
+    "Conceptual Compression Ratio",
+    "Agency Distribution",
+    "Reflective Bandwidth",
+    "Synthesis Velocity"
+  ],
+  "noveltyClaims": [
+    "Identifies a cognitive pattern rather than an interaction mode.",
+    "Provides diagnostic criteria instead of descriptive categories.",
+    "Models the human–AI pair as a unified cognitive system.",
+    "Uses axes to describe expression rather than classification.",
+    "Formalizes semantic density and recursive abstraction as measurable dimensions."
+  ],
+  "scope": {
+    "appliesTo": [
+      "recursive reasoning interactions",
+      "high-context human–AI exchanges",
+      "co-creative cognitive processes"
+    ],
+    "doesNotApplyTo": [
+      "shallow or transactional interactions",
+      "prompting styles",
+      "UX or interface design models",
+      "general conversational quality metrics"
+    ]
+  },
+  "license": "All rights reserved. © 2026 Christopher Coyle.",
+  "repository": "https://github.com/NoFlexBully/HCIP-Human-Machine-Classification"
+}
