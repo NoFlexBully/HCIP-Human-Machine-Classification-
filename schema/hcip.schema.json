@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/NoFlexBully/HCIP-Human-Machine-Classification/hcip.schema.json",
+  "title": "HCIP Research Object Schema",
+  "type": "object",
+  "required": ["name", "fullName", "version", "authors", "description", "coreMarkers", "variationAxes"],
+  "properties": {
+    "name": { "type": "string" },
+    "fullName": { "type": "string" },
+    "version": { "type": "string" },
+    "authors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "role"],
+        "properties": {
+          "name": { "type": "string" },
+          "role": { "type": "string" },
+          "year": { "type": "integer" }
+        }
+      }
+    },
+    "contributingSystems": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "fullName", "provider", "role"],
+        "properties": {
+          "name": { "type": "string" },
+          "fullName": { "type": "string" },
+          "provider": { "type": "string" },
+          "role": { "type": "string" }
+        }
+      }
+    },
+    "description": { "type": "string" },
+    "type": { "type": "string" },
+    "domain": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "coreMarkers": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 5
+    },
+    "variationAxes": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "noveltyClaims": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "scope": {
+      "type": "object",
+      "properties": {
+        "appliesTo": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "doesNotApplyTo": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "license": { "type": "string" },
+    "repository": {
+      "type": "string",
+      "format": "uri",
+      "const": "https://github.com/NoFlexBully/HCIP-Human-Machine-Classification"
+    }
+  }
+}
