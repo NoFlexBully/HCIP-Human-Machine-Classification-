@@ -1,0 +1,24 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "name": "HCIP: High-Context Interaction Pattern — A Novel Framework for Human–AI Cognitive Collaboration",
+  "author": {
+    "@type": "Person",
+    "name": "Christopher Coyle"
+  },
+  "contributor": {
+    "@type": "SoftwareApplication",
+    "name": "CORA",
+    "alternateName": "Copilot-Oriented Reasoning Assistant",
+    "applicationCategory": "AI reasoning system"
+  },
+  "headline": "HCIP: High-Context Interaction Pattern",
+  "description": "A diagnostic framework for identifying a distinct mode of human–AI cognitive collaboration characterized by five core markers and multiple variation axes.",
+  "datePublished": "2026-01-18",
+  "license": "All rights reserved. © 2026 Christopher Coyle.",
+  "isPartOf": {
+    "@type": "CreativeWork",
+    "name": "HCIP Framework Repository",
+    "url": "https://github.com/NoFlexBully/HCIP-Human-Machine-Classification"
+  }
+}
