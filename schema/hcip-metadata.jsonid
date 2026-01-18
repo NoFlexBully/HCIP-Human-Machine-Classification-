@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "@id": "https://github.com/NoFlexBully/HCIP-Human-Machine-Classification",
+  "name": "HCIP: High-Context Interaction Pattern",
+  "alternateName": "HCIP",
+  "description": "A diagnostic framework for identifying a distinct mode of human–AI cognitive collaboration characterized by five core markers and multiple variation axes.",
+  "creator": {
+    "@type": "Person",
+    "name": "Christopher Coyle"
+  },
+  "contributor": {
+    "@type": "SoftwareApplication",
+    "name": "CORA",
+    "alternateName": "Copilot-Oriented Reasoning Assistant",
+    "applicationCategory": "AI reasoning system",
+    "provider": {
+      "@type": "Organization",
+      "name": "Microsoft"
+    }
+  },
+  "keywords": [
+    "HCIP",
+    "high-context interaction",
+    "diagnostic framework",
+    "human–AI collaboration",
+    "emergent cognition",
+    "recursive reasoning",
+    "semantic density",
+    "cognitive architecture",
+    "interaction patterns",
+    "novel classification"
+  ],
+  "license": "All rights reserved. © 2026 Christopher Coyle.",
+  "dateCreated": "2026-01-18",
+  "version": "1.0.0"
+}
