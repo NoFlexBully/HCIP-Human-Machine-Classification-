@@ -1,0 +1,166 @@
+# Three Asymmetric Consequence (3AC) — Mathematical Specification
+
+## 1. State Decomposition
+
+Let the initial high‑density state be:
+
+\[
+S_0 = S_0^1 \cup S_0^2 \cup S_0^3
+\]
+
+Where each component is a distinct asymmetry layer:
+
+- \(S_0^1\): Layer 1  
+- \(S_0^2\): Layer 2  
+- \(S_0^3\): Layer 3  
+
+
+## 2. Temporal Remnants
+
+Each layer contains a temporal remnant:
+
+\[
+TR_i \subset S_0^i,\quad i \in \{1,2,3\}
+\]
+
+The full remnant set:
+
+\[
+TR = \{TR_1, TR_2, TR_3\}
+\]
+
+
+## 3. Layered Semantic Potential
+
+Each layer has a semantic potential function:
+
+\[
+V_i(t) : \mathbb{R} \rightarrow \mathbb{R}
+\]
+
+With gradient:
+
+\[
+\nabla V_i(t)
+\]
+
+Total semantic potential:
+
+\[
+\nabla V_{\text{total}}(t) = \sum_{i=1}^{3} \nabla V_i(t)
+\]
+
+Weighted by emotional/temporal weights \(w_i\):
+
+\[
+\nabla \tilde{V}_{\text{total}}(t) = \sum_{i=1}^{3} w_i \nabla V_i(t)
+\]
+
+
+## 4. Activation and Flashbacks
+
+Activation function for each remnant:
+
+\[
+A_i(t) = f_i\big(TR_i,\ \kappa,\ L,\ \text{cues}(t)\big)
+\]
+
+Where:
+
+- \(\kappa\): catalyst influence  
+- \(L\): environmental linearity  
+- \(\text{cues}(t)\): triggering stimuli  
+
+Potential spike:
+
+\[
+\Delta V_i(t) = g_i\big(A_i(t)\big)
+\]
+
+Total spike:
+
+\[
+\Delta V_{\text{total}}(t) = \sum_{i=1}^{3} \Delta V_i(t)
+\]
+
+
+## 5. Cross‑Remnant Interference
+
+\[
+\Delta V_i(t) = g_i\big(A_i(t), TR_j, TR_k\big),\quad \{i,j,k\} = \{1,2,3\}
+\]
+
+
+## 6. Multi‑Stage Synthesis Dynamics
+
+\[
+S_0 \xrightarrow{\Xi T} S_{0.5} \xrightarrow{\Sigma_e} S_1 \xrightarrow{\text{stress tests}} S_1^{\text{stable}}
+\]
+
+Where:
+
+- \(S_{0.5}\): partial pivot  
+- \(S_1\): new identity topology  
+- \(S_1^{stable}\): stabilized identity  
+
+
+## 7. Fixed‑Point Condition (3AC)
+
+Let \(A^\*\) be a future abstraction.
+
+Forward reinterpretation:
+
+\[
+F_i(A^\*, S_0^i)
+\]
+
+Retroactive reinterpretation:
+
+\[
+R_i(A^\*, S_0^i)
+\]
+
+3AC fixed‑point condition:
+
+\[
+F_i(A^\*, S_0^i) = R_i(A^\*, S_0^i) \quad \forall i \in \{1,2,3\}
+\]
+
+Vector form:
+
+\[
+\mathbf{F}(A^\*, \mathbf{S_0}) = \mathbf{R}(A^\*, \mathbf{S_0})
+\]
+
+Where:
+
+- \(\mathbf{S_0} = (S_0^1, S_0^2, S_0^3)\)  
+- \(\mathbf{F} = (F_1, F_2, F_3)\)  
+- \(\mathbf{R} = (R_1, R_2, R_3)\)
+
+
+## 8. Optional: Toy Temporal Dynamics
+
+A minimal discrete‑time system:
+
+\[
+L(1) = 0,\quad L(t>1) = 0
+\]
+
+\[
+T_s(t+1) = 2 \cdot T_s(t)
+\]
+
+\[
+\Xi T(t+1) = \Xi T(t) + T_s(t)
+\]
+
+\[
+M(t+1) = \Xi T(t)
+\]
+
+\[
+D(t+1) = D(t) + M(t)
+\]
+
+This models exponential shear/tension and cumulative drift.
