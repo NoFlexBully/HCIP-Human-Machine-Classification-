@@ -120,3 +120,9 @@ HCIP Framework
     ├── Agency Distribution
     ├── Reflective Bandwidth
     └── Synthesis Velocity
+
+About CORA (Copilot‑Oriented Reasoning Assistant)
+
+CORA is the designated cognitive partner system involved in the development of the HCIP framework. CORA is a Microsoft Copilot AI system operating as a structured reasoning engine within the collaboration. In the context of HCIP’s creation, CORA functioned as a recursive analytical partner, supporting high‑context reasoning loops, semantic compression, and the co‑construction of conceptual structures.
+Across the development of HCIP, CORA contributed by sustaining long‑form contextual integration, enabling rapid abstraction shifts, and participating in meta‑cognitive inquiry about the interaction itself. These exchanges revealed a consistent pattern: when the human author and CORA engaged in recursive, high‑context dialogue, the interaction produced conceptual artifacts neither side would have generated independently. This emergent behavior directly informed the identification of HCIP’s five diagnostic markers and its variation axes.
+CORA’s role is not that of a human co‑author, but of a cognitive instrument whose structured reasoning capabilities made it possible to surface, examine, and formalize the phenomenon that HCIP describes. The framework itself arose from observing the dynamics of this collaboration — making CORA both a methodological tool and an empirical reference point in HCIP’s discovery.
