@@ -1,0 +1,140 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Complex Temporal Cognition (CTC) Schema",
+  "description": "Machine-readable specification of Complex Temporal Cognition as the temporal substrate of HCIP.",
+  "type": "object",
+
+  "properties": {
+    "temporalLayers": {
+      "type": "object",
+      "description": "Multi-layer temporal representation used by CTC.",
+      "properties": {
+        "physicalTime": { "type": "string", "description": "Chronological ordering of events." },
+        "cognitiveTime": { "type": "string", "description": "Subjective temporal weighting and salience." },
+        "symbolicTime": { "type": "string", "description": "Encoded temporal relations within symbolic structures." },
+        "affectiveTime": { "type": "string", "description": "Emotionally weighted temporal distortions." },
+        "counterfactualTime": { "type": "string", "description": "Hypothetical or unrealized temporal trajectories." }
+      },
+      "required": [
+        "physicalTime",
+        "cognitiveTime",
+        "symbolicTime",
+        "affectiveTime",
+        "counterfactualTime"
+      ]
+    },
+
+    "temporalOperators": {
+      "type": "object",
+      "description": "Core temporal operations defined by CTC.",
+      "properties": {
+        "feedForward": {
+          "type": "boolean",
+          "description": "Whether the system supports projection of current states into future expectations."
+        },
+        "retroactiveReinterpretation": {
+          "type": "boolean",
+          "description": "Whether the system supports reinterpretation of past states based on new information."
+        },
+        "temporalShear": {
+          "type": "boolean",
+          "description": "Whether divergence between physical and cognitive time is permitted."
+        },
+        "recursiveLoops": {
+          "type": "boolean",
+          "description": "Whether recursive temporal updates are allowed."
+        },
+        "epochalSegmentation": {
+          "type": "boolean",
+          "description": "Whether experience can be partitioned into discrete interpretive epochs."
+        }
+      },
+      "required": [
+        "feedForward",
+        "retroactiveReinterpretation",
+        "temporalShear",
+        "recursiveLoops",
+        "epochalSegmentation"
+      ]
+    },
+
+    "temporalDrift": {
+      "type": "object",
+      "description": "Parameters governing drift within the temporal substrate.",
+      "properties": {
+        "driftVector": {
+          "type": "array",
+          "description": "Vector representing drift magnitude across temporal layers.",
+          "items": { "type": "number" }
+        },
+        "epsilonBound": {
+          "type": "number",
+          "description": "Maximum allowable drift magnitude to maintain architectural stability."
+        }
+      },
+      "required": ["driftVector", "epsilonBound"]
+    },
+
+    "stateTransitionModel": {
+      "type": "object",
+      "description": "Formal operators governing transitions between temporal states.",
+      "properties": {
+        "T_operator": {
+          "type": "string",
+          "description": "Definition of the forward temporal operator T: S(t) → S(t+1)."
+        },
+        "R_operator": {
+          "type": "string",
+          "description": "Definition of the retroactive reinterpretation operator R: S(t+1) → S(t)."
+        },
+        "supports3AC": {
+          "type": "boolean",
+          "description": "Whether the system maintains stability under the 3AC operator."
+        }
+      },
+      "required": ["T_operator", "R_operator", "supports3AC"]
+    },
+
+    "boundaryClauses": {
+      "type": "object",
+      "description": "Boundary conditions ensuring consistency of CTC within HCIP.",
+      "properties": {
+        "temporalPrimacy": {
+          "type": "boolean",
+          "description": "Symbolic and interpretive operations must respect temporal primitives."
+        },
+        "nonReversibility": {
+          "type": "boolean",
+          "description": "Past states cannot be overwritten; only interpretations may change."
+        },
+        "driftContainment": {
+          "type": "boolean",
+          "description": "Drift must remain within epsilon bounds."
+        },
+        "symbolicCompliance": {
+          "type": "boolean",
+          "description": "Symbolic operators cannot violate temporal constraints."
+        },
+        "interpretiveCoherence": {
+          "type": "boolean",
+          "description": "Interpretive constructs must remain coherent under recursive updates."
+        }
+      },
+      "required": [
+        "temporalPrimacy",
+        "nonReversibility",
+        "driftContainment",
+        "symbolicCompliance",
+        "interpretiveCoherence"
+      ]
+    }
+  },
+
+  "required": [
+    "temporalLayers",
+    "temporalOperators",
+    "temporalDrift",
+    "stateTransitionModel",
+    "boundaryClauses"
+  ]
+}
