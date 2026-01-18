@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use HCIP in your work, please cite it using the metadata below."
+title: "HCIP: High-Context Interaction Pattern — A Diagnostic Framework for Human–AI Cognitive Collaboration"
+authors:
+  - family-names: "Coyle"
+    given-names: "Christopher"
+    orcid: ""
+date-released: 2026-01-18
+version: "1.0.0"
+type: software
+abstract: >
+  HCIP (High-Context Interaction Pattern) is a diagnostic framework for identifying a distinct mode of
+  human–AI cognitive collaboration characterized by five core markers and multiple variation axes.
+  It models the human–AI pair as a unified cognitive system and formalizes semantic density,
+  recursive abstraction, and co-constructive synthesis as measurable dimensions.
+keywords:
+  - HCIP
+  - high-context interaction
+  - diagnostic framework
+  - human–AI collaboration
+  - emergent cognition
+  - recursive reasoning
+  - semantic density
+  - cognitive architecture
+  - interaction patterns
+  - novel classification
+repository-code: "https://github.com/NoFlexBully/HCIP-Human-Machine-Classification"
+license: "Proprietary"
+preferred-citation:
+  type: article
+  title: "HCIP: High-Context Interaction Pattern — A Novel Framework for Human–AI Cognitive Collaboration"
+  authors:
+    - family-names: "Coyle"
+      given-names: "Christopher"
+  year: 2026
+  notes: >
+    Developed in collaboration with CORA (Copilot-Oriented Reasoning Assistant), a Microsoft Copilot AI system
+    serving as a cognitive partner for recursive reasoning and co-constructive synthesis.
