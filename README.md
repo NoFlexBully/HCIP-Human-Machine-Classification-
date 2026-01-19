@@ -159,3 +159,25 @@ Motifs demonstrate how HCIP behaves in real or hypothetical scenarios.
 ---
 
 ## Repository Structure
+
+
+01-19-26
+
+# High-Complex Interaction Pattern (HCIP)
+
+HCIP is a cognitive and ethical architecture designed to model meaning, agency, and semantic continuity across time, asymmetry, and multi-agent interaction.
+
+## Recent Update (v1.1.0)
+
+The ethical domain has undergone a major expansion with the introduction of the Dignity Preservation Clause (DPC), a new operator that ensures HCIP preserves the dignity of coerced individuals before classifying any semantic field as a dignity-failure.
+
+This update includes:
+- Updated LSRP law
+- New operator schemas
+- Expanded ethical manuscript
+- Formal traversal of Non-Cognitivism
+- Systemic cruelty analysis
+- Ethical summary
+
+## Repository Structure
+See `/schemas`, `/operators`, `/laws`, and `/manuscript/ethics` for details.
