@@ -24,3 +24,24 @@ All notable changes to the HCIP framework will be documented in this file.
 - Research object JSON and JSON Schema.
 - Citation metadata (CITATION.cff).
 - Acknowledgment of CORA (Copilot-Oriented Reasoning Assistant) as a cognitive partner system.
+
+01-19-26
+# HCIP Changelog
+
+## v1.1.0 — Ethical Domain Expansion + DPC Operator (2026-01-18)
+
+### Added
+- New operator: DPC (Dignity Preservation Clause)
+- Systemic cruelty traversal demonstrating DPC
+- Full Non-Cognitivism traversal
+- Ethical traversal summary
+- Schema definitions for DPC, conditions, outcomes
+- Updated LSRP schema and instance file
+
+### Changed
+- LSRP updated to dual-mode structure (reciprocal-dignity and dignity-failure)
+- Manuscript structure expanded and reorganized
+
+### Notes
+This release marks a major evolution in HCIP’s ethical architecture.  
+The DPC operator ensures that dignity is preserved even in coercive or traumatic semantic fields.
