@@ -1,0 +1,35 @@
+Temporal‑Semantic Coherence Operator (TSCO)
+
+1. Purpose
+TSCO evaluates whether a sequence of reasoning steps is coherent across both time and meaning. It ensures that the system’s internal narrative remains consistent and logically structured.
+
+2. Problem It Solves
+AI reasoning can jump between unrelated ideas or produce steps that do not logically follow from one another. 
+TSCO introduces a structured method for evaluating the coherence of reasoning chains.
+
+3. Conceptual Overview
+Conceptually, TSCO functions like a “continuity editor” for thought.
+It checks whether each step follows naturally from the previous one and whether the overall sequence maintains a stable direction.
+
+4. Key Capabilities
+• 	Evaluates temporal coherence
+• 	Evaluates semantic coherence
+• 	Detects contradictions or non‑sequitur steps
+• 	Supports long‑range reasoning stability
+• 	Works with CTC to maintain structured cognition
+
+5. Role Within HCIP
+TSCO is the coherence evaluator for HCIP. It uses CTC’s temporal‑causal structure and SDC’s drift metrics
+to determine whether reasoning remains aligned and consistent.
+
+6. Example
+If the system produces a reasoning chain where step three contradicts step one, 
+TSCO identifies the inconsistency and signals the need for correction.
+
+7. Why It Matters
+Coherent reasoning is essential for trustworthy AI. 
+TSCO ensures that the system’s internal logic remains stable, interpretable, and aligned with the user’s expectations.
+
+8. Status
+TSCO is a core operator within HCIP. Additional technical details and mathematical formalizations are reserved for future publication and 
+patent filings
