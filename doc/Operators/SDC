@@ -1,0 +1,39 @@
+Semantic Drift Comparator (SDC)
+1. Purpose
+SDC provides a structured method for measuring how far the system’s current reasoning has moved from the user’s intended direction.
+It quantifies drift and helps maintain stable, aligned cognition.
+
+2. Problem It Solves
+AI systems can gradually shift away from the user’s goals or context without noticing. 
+This drift can accumulate and lead to misinterpretation, hallucination, or loss of coherence.
+SDC introduces a formal mechanism for detecting and correcting this shift.
+
+3. Conceptual Overview
+Conceptually, SDC functions like a “compass” for reasoning.
+It compares the system’s current trajectory with the user’s original intent and flags deviations.
+It can also track the rate of drift over time.
+
+4. Key Capabilities
+- Measures semantic drift across reasoning steps
+- Detects accelerating or compounding misalignment
+- Supports operator‑level correction
+- Provides signals to ROSE and TSCO
+- Helps maintain long‑range coherence
+
+5. Role Within HCIP
+SDC is the primary drift‑detection mechanism in HCIP. 
+It informs ROSE when emergent operators may be misaligned and supports TSCO in evaluating temporal‑semantic coherence.
+
+6. Example
+If the user asks about a technical concept and the system begins drifting into unrelated topics,
+SDC detects the divergence and signals the need for correction.
+
+7. Why It Matters
+Drift is one of the most common failure modes in AI reasoning.
+SDC provides a structured way to detect and mitigate it, ensuring that the system remains aligned with the user’s goals.
+
+8. Status
+SDC is part of the core HCIP reasoning pipeline. 
+Additional technical details and mathematical formalizations are reserved for future publication and patent filings.
+
+
