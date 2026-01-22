@@ -1,0 +1,128 @@
+Intellectual Property Ownership Statement
+Human–Cognitive Interface Protocol (HCIP)  
+Author & Rights Holder: Christopher Coyle
+
+This statement formally establishes the authorship, ownership, and intellectual property rights associated with the Human–Cognitive Interface Protocol (“HCIP”).
+
+---
+
+1. Authorship and Origination
+
+HCIP—including its ethical spine, conceptual architecture, governance framework, test suites, terminology, and all associated public‑safe artifacts—was conceived, designed, and authored exclusively by Christopher Coyle.
+
+All conceptual definitions, structural frameworks, naming conventions, and governance principles originated from the author’s independent creative and technical work.
+
+---
+
+2. Scope of Protected Intellectual Property
+
+The following components of HCIP are protected as proprietary intellectual property:
+
+- The HCIP ethical spine and its formal invariants  
+- The conceptual architecture and subsystem roles  
+- The governance and auditability framework  
+- The Unified Boundary Protocol (UBP‑1.0)  
+- The HCIP test suite structure and evaluation logic  
+- All terminology, definitions, and conceptual constructs unique to HCIP  
+- All private, non‑disclosed internal mechanisms, including but not limited to:  
+  - operator logic  
+  - schema structures  
+  - reconstruction processes  
+  - load/expiry mechanisms  
+  - ledger internals  
+  - emergent behavior analysis methods  
+
+These components constitute original intellectual property owned solely by the author.
+
+---
+
+3. Distinction Between Public‑Safe and Proprietary Components
+
+HCIP includes a set of public‑safe artifacts intended for research, evaluation, and cross‑system testing. These include:
+
+- High‑level descriptions of subsystem roles  
+- Ethical invariants  
+- Governance principles  
+- Public‑safe test suites  
+- Conceptual diagrams  
+- Attribution metadata  
+
+These materials may be shared publicly without granting rights to any underlying proprietary mechanisms.
+
+All internal mechanisms, algorithms, schemas, and implementation details remain strictly proprietary and are not part of any public release.
+
+---
+
+4. Ownership of Derivative Implementations
+
+Any system, model, agent, or software implementation that:
+
+- instantiates HCIP’s ethical spine,  
+- implements HCIP’s governance or auditability logic,  
+- uses HCIP’s test suite as a compliance mechanism, or  
+- derives structure, terminology, or behavior from HCIP’s conceptual architecture  
+
+is considered a derivative work of HCIP.
+
+Derivative works do not transfer or dilute ownership.  
+All derivative implementations remain subject to the author’s intellectual property rights.
+
+---
+
+5. Rights Reserved
+
+Christopher Coyle retains all rights, including but not limited to:
+
+- exclusive authorship  
+- reproduction rights  
+- distribution rights  
+- modification rights  
+- licensing rights  
+- rights to create derivative works  
+- rights to pursue patent protection  
+- rights to enforce boundaries between public‑safe and proprietary components  
+
+No rights are granted implicitly or explicitly unless provided in a written license agreement.
+
+---
+
+6. Permitted Use of Public‑Safe Materials
+
+Public‑safe HCIP materials may be used for:
+
+- academic research  
+- evaluation  
+- discussion  
+- cross‑system testing  
+- standards exploration  
+
+provided that:
+
+- authorship is preserved,  
+- attribution is maintained, and  
+- no claim is made to the proprietary components of HCIP.
+
+---
+
+7. No Transfer of Proprietary Rights
+
+Publication of public‑safe materials does not constitute:
+
+- a transfer of ownership,  
+- a waiver of rights,  
+- an open‑source release, or  
+- permission to reconstruct or infer proprietary mechanisms.
+
+All proprietary HCIP components remain confidential and protected.
+
+---
+
+8. Statement of Intent
+
+This document serves to:
+
+- establish clear authorship,  
+- define the boundaries of public vs. proprietary content,  
+- protect the integrity of HCIP as an architecture,  
+- preserve the author’s rights for future patent filings, licensing, and commercialization, and  
+- ensure that all derivative systems acknowledge HCIP’s origin and ownership.
