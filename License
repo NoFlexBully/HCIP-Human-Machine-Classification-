@@ -1,34 +1,62 @@
-Creative Commons Attribution–NonCommercial–NoDerivatives 4.0 International  
-(CC BY‑NC‑ND 4.0)
+HCIP Protocol Specification License
+- Free to use for research, education, and non‑commercial projects
+- Commercial use requires written permission
+- All proprietary implementations (engine, operators, meta‑stack) 
+  remain exclusive during the pre‑patent filing period
 
-Copyright © 2026 Christopher Coyle
+# HCIP Protocol Specification License (Draft v1.0)
+(Non‑Commercial, Research‑Safe, Pre‑Patent Protection License)
 
-You are free to:
+## 1. Purpose
+This license governs the use of the HCIP Protocol Specification, 
+including its conceptual framework, terminology, documentation, and 
+structural descriptions. It is designed to allow research, education, 
+and non‑commercial exploration, while preserving the author’s exclusive 
+rights to proprietary implementations and commercial applications.
 
-• Share — copy and redistribute the material in any medium or format
+## 2. Permissions
+Subject to the terms below, you are permitted to:
 
-Under the following terms:
+- Use the HCIP Protocol Specification for research, academic work, 
+  teaching, analysis, and non‑commercial projects.
+- Share unmodified portions of the specification with proper attribution.
+- Reference the specification in publications, presentations, and 
+  derivative academic work.
+- Discuss, critique, or analyze the protocol in public or private 
+  settings.
 
-• Attribution — You must give appropriate credit, provide a link to the license, 
-  and indicate if changes were made. You may do so in any reasonable manner, 
-  but not in any way that suggests the licensor endorses you or your use.
+## 3. Restrictions
+The following activities require prior written permission from the 
+copyright holder:
 
-• NonCommercial — You may not use the material for commercial purposes.
+- Commercial use of any part of the HCIP Protocol Specification.
+- Commercial implementations, including software, engines, operator 
+  systems, or derivative architectures.
+- Integration of HCIP concepts into commercial products, services, or 
+  platforms.
+- Derivative frameworks intended for commercial distribution.
 
-• NoDerivatives — If you remix, transform, or build upon the material, 
-  you may not distribute the modified material.
+## 4. Proprietary Components
+The following remain exclusive intellectual property of the author 
+during the pre‑patent filing period:
 
-• No additional restrictions — You may not apply legal terms or technological 
-  measures that legally restrict others from doing anything the license permits.
+- The HCIP engine
+- All operators, including diagnostic, governance, temporal, symbolic, 
+  and meta‑operators
+- The meta‑stack, including internal logic, invariants, substrates, and 
+  implementation details
+- Any unpublished or private components of the HCIP architecture
 
-Notices:
+No rights to these components are granted or implied.
 
-You do not have to comply with the license for elements of the material in the 
-public domain or where your use is permitted by an applicable exception or limitation.
+## 5. No Derivative Implementations
+You may not create, publish, or distribute:
 
-No warranties are given. The license may not give you all of the permissions 
-necessary for your intended use. Other rights such as publicity, privacy, or 
-moral rights may limit how you use the material.
+- Modified versions of the HCIP Protocol Specification
+- Alternative specifications claiming compatibility with HCIP
+- Competing frameworks derived from HCIP terminology or structure
 
-Full legal text available at:
-https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+Academic commentary and analysis are permitted, but derivative 
+implementations are not.
+
+## 6. Attribution
