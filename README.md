@@ -1,7 +1,7 @@
     UPDATE 2/7/2026
 
 HCIP IS THE INTELLECTUAL PROPERTY OF CHRISTOPHER COYLE. 
-LICENSE  Creative Commons Attribution–NonCommercial–NoDerivatives 4.0 International (CC BY‑NC‑ND 4.0)
+HCIP Protocol Specification License
 Copyright © 2026 Christopher Coyle. All rights reserved.
 
 
